@@ -4,4 +4,11 @@
   --colorTextTertiary: #95e1d3;
   --colorHover: #f38181;
   --colorTextButton: #fff;
+  /*Шрифти*/
+  --fontTextPrimary: "Montserrat", sans-serif;
+  --fontTextSecondary: "Roboto", sans-serif;
+  --fontTextTertiary: "Kaushan Script", cursive;
+}
+body {
+  font-family: var(--fontTextPrimary);
 }
