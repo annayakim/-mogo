@@ -11,4 +11,18 @@
 }
 body {
   font-family: var(--fontTextPrimary);
+  color: var(--fontTextPrimary);
+  font-size: 14px;
+  font-weight: 400;
+}
+.header-logo-text {
+  color: var(--colorTextTertiary);
+  font-size: 30px;
+  font-weight: 700;
+}
+.nav-link {
+  color: var(--colorTextTertiary);
+}
+.nav-link:hover {
+  color: var(--colorHover);
 }
