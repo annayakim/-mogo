@@ -9,12 +9,14 @@
   --fontTextSecondary: "Roboto", sans-serif;
   --fontTextTertiary: "Kaushan Script", cursive;
 }
+/*=======================GLOBAL=========================================*/
 body {
   font-family: var(--fontTextPrimary);
-  color: var(--fontTextPrimary);
+  color: var(--fontColorPrimary);
   font-size: 14px;
   font-weight: 400;
 }
+/*========================HEADER===============================================*/
 .header-logo-text {
   color: var(--colorTextTertiary);
   font-size: 30px;
@@ -25,4 +27,65 @@ body {
 }
 .nav-link:hover {
   color: var(--colorHover);
+}
+/*========================SERVICES===============================================*/
+.services-title {
+  font-size: 30px;
+  font-weight: 700;
+  font-variant: all-small-caps;
+  text-align: center;
+}
+.services-heading {
+  font-variant: small-caps;
+}
+.services-text {
+  color: var(--colorTextSecondary);
+  font-family: var(--fontTextSecondary);
+  font-size: 15px;
+
+  line-height: 1.47; /* 146.667% */
+}
+/*========================TEAM===============================================*/
+.team-title {
+  font-size: 30px;
+  font-weight: 700;
+  font-variant: all-small-caps;
+  text-align: center;
+}
+.team-text {
+  color: var(--colorTextSecondary);
+  text-align: center;
+  font-family: var(--fontTextSecondary);
+  font-size: 15px;
+}
+.teammete-title {
+  font-variant: all-small-caps;
+  text-align: center;
+}
+.teammete-text {
+  color: var(--colorTextSecondary);
+  text-align: center;
+  font-family: var(--fontTextSecondary);
+  font-size: 15px;
+  font-style: italic;
+  font-weight: 300;
+}
+/*========================FOOTER===============================================*/
+.footer-info {
+  color: var(--colorHover);
+}
+.subscribe-mail::placeholder {
+  color: var(--colorTextSecondary);
+  font-family: var(--fontTextSecondary);
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 300;
+}
+.subscribe-button {
+  color: var(--colorTextButton);
+  text-align: center;
+  font-family: var(--fontTextPrimary);
+  font-size: 14px;
+  font-weight: 700;
+  font-variant: all-small-caps;
 }
