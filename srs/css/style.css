@@ -16,12 +16,22 @@ body {
   font-size: 14px;
   font-weight: 400;
 }
+.container {
+  max-width: 1200px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
 /*========================HEADER===============================================*/
+.header {
+  padding-top: 25px;
+}
 .header-logo-text {
   color: var(--colorTextTertiary);
   font-size: 30px;
   font-weight: 700;
 }
+
 .nav-link {
   color: var(--colorTextTertiary);
 }
@@ -29,6 +39,9 @@ body {
   color: var(--colorHover);
 }
 /*========================SERVICES===============================================*/
+.services {
+  padding-top: 68px;
+}
 .services-title {
   font-size: 30px;
   font-weight: 700;
@@ -46,6 +59,9 @@ body {
   line-height: 1.47; /* 146.667% */
 }
 /*========================TEAM===============================================*/
+.team {
+  padding-top: 100px;
+}
 .team-title {
   font-size: 30px;
   font-weight: 700;
@@ -71,6 +87,13 @@ body {
   font-weight: 300;
 }
 /*========================FOOTER===============================================*/
+.footer {
+  padding-top: 80px;
+}
+.footer-container {
+  border-top: solid 1px var(--colorTextSecondary);
+  padding-top: 10px;
+}
 .footer-info {
   color: var(--colorHover);
 }
