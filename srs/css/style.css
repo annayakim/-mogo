@@ -52,20 +52,36 @@ body {
 .services {
   padding-top: 68px;
 }
+
 .services-title {
   font-size: 30px;
   font-weight: 700;
   font-variant: all-small-caps;
   text-align: center;
+  margin-bottom: 65px;
+}
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 100px;
+}
+.services-item {
+  width: 330px;
 }
 .services-heading {
   font-variant: small-caps;
+}
+.services-head {
+  display: flex;
+  column-gap: 20px;
 }
 .services-text {
   color: var(--colorTextSecondary);
   font-family: var(--fontTextSecondary);
   font-size: 15px;
-
+  margin-left: 57px;
   line-height: 1.47; /* 146.667% */
 }
 /*========================TEAM===============================================*/
@@ -77,17 +93,29 @@ body {
   font-weight: 700;
   font-variant: all-small-caps;
   text-align: center;
+  margin-bottom: 45px;
 }
+
 .team-text {
   color: var(--colorTextSecondary);
   text-align: center;
   font-family: var(--fontTextSecondary);
   font-size: 15px;
+  margin-bottom: 27px;
+}
+.team-teammetes {
+  display: flex;
+  column-gap: 30px;
+}
+.teammete-img {
+  margin-bottom: 30px;
 }
 .teammete-title {
   font-variant: all-small-caps;
   text-align: center;
+  margin-bottom: 11px;
 }
+
 .teammete-text {
   color: var(--colorTextSecondary);
   text-align: center;
